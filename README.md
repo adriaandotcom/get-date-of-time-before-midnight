@@ -22,4 +22,4 @@ getDateOfTimeBeforeMidnight('16:00'); // returns date object of today
 Why do you need this?
 ---------------------
 
-It is usefull for crawlers when there is only a time available. I use it for http://watiseropderadio.nl so I can crawl websites of radio stations and get the correct time of songs in the playlist. When I crawl the page at 01:00 and the page shows 23:00 as airtime of a song I will convert this to a date format to yesterday.
+It is usefull for crawlers when there is only a time (23:00) available instead of a date (2014-06-12 23:00). I use it for http://watiseropderadio.nl so I can crawl websites of radio stations and get the correct time of songs in the playlist. When I crawl the page at 01:00 and the page shows 23:00 as airtime of a song I will convert this to a date format to yesterday.
